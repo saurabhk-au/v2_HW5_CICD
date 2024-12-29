@@ -24,4 +24,5 @@ jobs:
       run: python train.py
 
     - name: Run tests
-      run: python tests/test_model.py
+      run: 
+        pytest tests/test_model.py -v
